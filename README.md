@@ -54,7 +54,5 @@ cd articulated-dragon
 python3 -m http.server 8000
 # open http://localhost:8000
 ```
-(Opening `index.html` by double-clicking it won't work; browsers block loading the STL from `file://`.)
-
 ---
 Designed by **Claire Yuan**
