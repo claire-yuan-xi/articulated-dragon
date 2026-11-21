@@ -4,7 +4,7 @@ A print-in-place articulated dragon designed in **Tinkercad**. The spine is a ch
 
 ### **[▶ Live 3D demo](https://claire-yuan-xi.github.io/articulated-dragon/)**
 
-![Articulated dragon, angled view](images/render-iso.png)
+![The printed dragon curled up in a hand](images/photo-coiled.jpg)
 
 ## Features
 - **Print-in-place:** prints as one job, and the joints move straight off the bed
@@ -14,9 +14,18 @@ A print-in-place articulated dragon designed in **Tinkercad**. The spine is a ch
 - Modeled entirely in Tinkercad
 
 ## Gallery
-| Top view | Side view |
+
+### The real print
+| Stretched out | Bending at the neck |
 |---|---|
-| ![Top view](images/render-top.png) | ![Side view](images/render-side.png) |
+| ![Printed dragon laid out straight](images/photo-straight.jpg) | ![Holding the dragon by the head while the body bends](images/photo-flex.jpg) |
+
+![Printed dragon from above, head to tail](images/photo-top.jpg)
+
+### Renders of the model
+| Angled | Top | Side |
+|---|---|---|
+| ![Angled render](images/render-iso.png) | ![Top render](images/render-top.png) | ![Side render](images/render-side.png) |
 
 ## Live demo
 The [demo page](https://claire-yuan-xi.github.io/articulated-dragon/) loads the actual STL file in your browser with [three.js](https://threejs.org/):
@@ -30,7 +39,7 @@ The [demo page](https://claire-yuan-xi.github.io/articulated-dragon/) loads the 
 |---|---|
 | [`models/dragon.stl`](models/dragon.stl) | The full print-in-place dragon (binary STL, ~28 MB) |
 | [`index.html`](index.html) | The 3D viewer behind the live demo |
-| `images/` | Rendered preview images |
+| `images/` | Photos of the printed dragon and renders of the model |
 
 ## Printing tips
 - Print it flat and as exported
