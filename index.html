@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Articulated Dragon — 3D Demo</title>
+<title>Articulated Dragon</title>
 <style>
   :root { --bg:#0f1115; --panel:#181b22; --text:#e8e6e3; --muted:#9aa0a6; --accent:#e4572e; }
   * { box-sizing:border-box; margin:0; padding:0; }
@@ -23,17 +23,17 @@
 </head>
 <body>
 <header>
-  <h1>🐉 Articulated <span>Dragon</span></h1>
+  <h1>Articulated <span>Dragon</span></h1>
   <div class="controls">
     <select id="part" aria-label="Choose model part"></select>
     <input type="color" id="color" value="#e4572e" aria-label="Model color">
     <button id="spin">Pause spin</button>
     <button id="wire">Wireframe</button>
-    <a href="https://github.com/claire-yuan-xi/articulated-dragon">View on GitHub →</a>
+    <a href="https://github.com/claire-yuan-xi/articulated-dragon">GitHub</a>
   </div>
 </header>
-<div id="viewer"><div id="msg">Loading model…</div></div>
-<footer>Drag to rotate · Scroll to zoom · Right-drag to pan. Designed in Tinkercad.</footer>
+<div id="viewer"><div id="msg">Loading…</div></div>
+<footer>Drag to rotate · Scroll to zoom · Right-drag to pan</footer>
 
 <script type="importmap">
 { "imports": {
@@ -94,7 +94,7 @@ function frame(obj) {
 }
 
 function load(file) {
-  msg.style.display = 'flex'; msg.textContent = 'Loading model…';
+  msg.style.display = 'flex'; msg.textContent = 'Loading…';
   if (current) { scene.remove(current); current = null; }
   const isObj = file.toLowerCase().endsWith('.obj');
   const loader = isObj ? new OBJLoader() : new STLLoader();
@@ -113,7 +113,7 @@ function load(file) {
     frame(wrap);
     msg.style.display = 'none';
   }, undefined, () => {
-    msg.textContent = `Couldn't load ${file}. Add your exported STL to the models/ folder.`;
+    msg.textContent = `Couldn't load the model.`;
   });
 }
 
