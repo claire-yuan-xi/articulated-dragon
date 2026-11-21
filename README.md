@@ -1,6 +1,6 @@
-# 🐉 Articulated Dragon
+# Articulated Dragon
 
-A print-in-place articulated dragon designed in **Tinkercad**. The spine is a chain of linked segments, each one wrapped in scales and spikes, running from a horned head to a pointed tail. Every segment is a separate interlocking piece, so the whole dragon prints in one go and comes off the bed already able to bend and wiggle.
+A print-in-place articulated dragon designed in **Tinkercad**. The spine is a chain of linked segments which I had to read a few articles for to udnerstand linking in TinkerCAD. The scales and spikes were made using open sourced shapes; for example the spikes were made with someones open sourced pepper model. Every segment is a separate interlocking piece, so the whole dragon prints in one go and comes off the bed already able to bend and wiggle, for most 3D printers.
 
 ### **[▶ Live 3D demo](https://claire-yuan-xi.github.io/articulated-dragon/)**
 
@@ -33,11 +33,10 @@ The [demo page](https://claire-yuan-xi.github.io/articulated-dragon/) loads the 
 | `images/` | Rendered preview images |
 
 ## Printing tips
-- Print it **flat, as exported**. The joints are designed in that orientation.
-- **Don't add supports.** They would fill the gaps between segments and fuse the joints.
+- Print it flat and as exported
+- Don't add supports, as they will fill the gaps between segments and fuse the joints.
 - A 0.2 mm layer height works well with PLA.
-- Make sure the first layer is clean. If it squishes too much, the segments can fuse together at the bed.
-- When the print is done, gently flex each joint from head to tail to free it.
+- When the print is done, gently flex each joint from head to tail to free it, or if the printer auto adds supports, use pliers to take the extra PLA off.
 
 ## Run the demo locally
 ```bash
@@ -46,7 +45,7 @@ cd articulated-dragon
 python3 -m http.server 8000
 # then open http://localhost:8000
 ```
-(Opening `index.html` by double-clicking it won't work, because browsers block loading the STL from `file://`.)
+(Opening `index.html` by double-clicking it won't work; browsers block loading the STL from `file://`.)
 
 ---
-Designed by **Claire Yuan** ([@claire-yuan-xi](https://github.com/claire-yuan-xi))
+Designed by **Claire Yuan**
