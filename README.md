@@ -7,10 +7,10 @@ A print-in-place articulated dragon designed in **Tinkercad**. The spine is a ch
 ![The printed dragon curled up in a hand](images/photo-coiled.jpg)
 
 ## Features
-- **Print-in-place:** prints as one job, and the joints move straight off the bed
-- **145 interlocking parts** in a single STL file
-- **Compact:** about 190 × 140 × 41 mm as laid out (posed in a curve, so it fits on most printer beds)
-- **Detailed:** about 569,000 triangles of scales, spikes, horns and tail
+- Print-in-place
+- 145 interlocking parts in a single STL file
+- About 190 × 140 × 41 mm as laid out (posed in a curve, so it fits on most printer beds)
+- About 569,000 triangles of scales, spikes, horns and tail
 - Modeled entirely in Tinkercad
 
 ## Gallery
@@ -52,7 +52,7 @@ The [demo page](https://claire-yuan-xi.github.io/articulated-dragon/) loads the 
 git clone https://github.com/claire-yuan-xi/articulated-dragon.git
 cd articulated-dragon
 python3 -m http.server 8000
-# then open http://localhost:8000
+# open http://localhost:8000
 ```
 (Opening `index.html` by double-clicking it won't work; browsers block loading the STL from `file://`.)
 
