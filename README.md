@@ -1,6 +1,6 @@
 # Articulated Dragon
 
-A print-in-place articulated dragon designed in **Tinkercad**. The spine is a chain of linked segments which I had to read a few articles for to udnerstand linking in TinkerCAD. The scales and spikes were made using open sourced shapes; for example the spikes were made with someones open sourced pepper model. Every segment is a separate interlocking piece, so the whole dragon prints in one go and comes off the bed already able to bend and wiggle, for most 3D printers.
+A print-in-place articulated dragon designed in Tinkercad! The spine is a chain of linked segments which I had to read a few articles for to udnerstand linking in TinkerCAD. The scales and spikes were made using open sourced shapes; for example the spikes were made with someones open sourced pepper model. Every segment is a separate interlocking piece, so the whole dragon prints in one go and comes off the bed already able to bend and wiggle, for most 3D printers.
 
 ### **[▶ Live 3D demo](https://claire-yuan-xi.github.io/articulated-dragon/)**
 
